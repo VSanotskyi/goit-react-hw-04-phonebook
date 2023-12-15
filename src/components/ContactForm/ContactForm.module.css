@@ -1,0 +1,28 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 40vh;
+}
+
+.formBtn {
+  display: block;
+  padding: 5px 20px;
+  
+  border: none;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.formBtn:hover, .formBtn:focus {
+  background-color: blue;
+  color: white;
+}
